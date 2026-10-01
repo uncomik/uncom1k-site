@@ -1,0 +1,240 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Artem</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        ARTEM
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                Artem
+            </h1>
+
+            <h2>
+                Student · Developer · Creator
+            </h2>
+
+            <p class="description">
+                I like programming, technology,
+                games and creating my own projects.
+            </p>
+
+            <a href="#about" class="button">
+                About me
+            </a>
+
+        </div>
+
+
+        <div class="hero-photo">
+
+            <img
+                src="{% static 'img/profile.jpg' %}"
+                alt="Artem"
+            >
+
+        </div>
+
+    </section>
+
+
+    <section class="section" id="about">
+
+        <p class="section-number">
+            01
+        </p>
+
+        <h2>
+            About me
+        </h2>
+
+        <p class="big-text">
+            My name is Artem. I'm a student and I'm learning
+            programming and web development.
+            I like technology, games and creating new things.
+        </p>
+
+    </section>
+
+
+    <section class="section" id="interests">
+
+        <p class="section-number">
+            02
+        </p>
+
+        <h2>
+            Interests
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <span>01</span>
+                <h3>Programming</h3>
+                <p>Python, Django and application development.</p>
+            </div>
+
+            <div class="card">
+                <span>02</span>
+                <h3>Technology</h3>
+                <p>Computers, AI and new technology.</p>
+            </div>
+
+            <div class="card">
+                <span>03</span>
+                <h3>Gaming</h3>
+                <p>PC games, consoles and game development.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section" id="projects">
+
+        <p class="section-number">
+            03
+        </p>
+
+        <h2>
+            Projects
+        </h2>
+
+        <div class="project">
+
+            <div>
+                <p class="project-type">
+                    DEVELOPMENT
+                </p>
+
+                <h3>
+                    JARVIS Messenger
+                </h3>
+
+                <p>
+                    My messenger project created while
+                    learning application development.
+                </p>
+            </div>
+
+            <span>
+                ↗
+            </span>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="gallery">
+
+    <p class="section-number">
+        04
+    </p>
+
+    <h2>
+        Gallery
+    </h2>
+
+    <div class="gallery">
+
+        <img src="{% static 'img/photo1.jpg' %}" alt="Photo 1">
+        <img src="{% static 'img/photo2.jpg' %}" alt="Photo 2">
+        <img src="{% static 'img/photo3.jpg' %}" alt="Photo 3">
+        <img src="{% static 'img/photo4.jpg' %}" alt="Photo 4">
+
+    </div>
+
+</section>
+
+</section>
+
+    <section class="section" id="contact">
+
+        <p class="section-number">
+            05
+        </p>
+
+        <h2>
+            Contact
+        </h2>
+
+      <div class="contacts">
+
+    <a
+        href="https://t.me/counterstrike993"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Telegram
+    </a>
+
+    <a
+    href="https://www.instagram.com/nftgeerd/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Instagram
+    </a>
+
+    <a
+        href="https://github.com/uncomik"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        GitHub
+    </a>
+
+    <a href="mailto:a79256784252@gmail.com">
+        Email
+    </a>
+
+</div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    © 2026 Artem
+</footer>
+
+</body>
+
+</html>
