@@ -66,8 +66,8 @@ nav a:hover {
 
     padding: 70px max(6%, calc((100% - 1200px) / 2));
 
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 1fr;
+    gap: 0;
 
     align-items: center;
     gap: 80px;
