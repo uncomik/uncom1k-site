@@ -62,16 +62,24 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    width: min(1200px, 88%);
     min-height: calc(100vh - 80px);
 
-    margin: auto;
+    padding: 70px max(6%, calc((100% - 1200px) / 2));
 
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
 
     align-items: center;
     gap: 80px;
+
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ), url("/static/img/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .small-title {
